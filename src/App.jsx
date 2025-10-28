@@ -1,9 +1,10 @@
 import './App.css'
+import CallHandler from "./component/CallHandler.jsx";
 
 function App() {
 
   return (
-    <h1 className="text-4xl">Real-Time Communication</h1>
+    <CallHandler />
   )
 }
 
